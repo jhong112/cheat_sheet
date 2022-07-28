@@ -1,3 +1,3 @@
-# cheat_sheet_C
+# cheat_sheet
 
 is readme??
