@@ -1,3 +1,3 @@
-# cheat_sheet
+# 공부했던것들 정리
 
-is readme??
+.md == Markdown
