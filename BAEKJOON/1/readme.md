@@ -1,3 +1,8 @@
+// int main(){return 0;} 이것이 표준
+void main(){} 하면 컴파일 오류 나게끔 되어있네
+
+
+
 test.c 와 test1.bat 구조
 
 
