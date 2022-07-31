@@ -1,12 +1,11 @@
 #include <stdio.h>
+#pragma warning(disable: 4996)
 int main()
 {
     printf("Hello World!");
     return 0;
 }
 
-
-#include <stdio.h>
 int main()
 {
     printf("강한친구 대한육군\n");
@@ -15,8 +14,6 @@ int main()
     return 0;
 }
 
-
-#include <stdio.h>
 int main()
 {
     printf("\\    /\\\n");
@@ -27,8 +24,6 @@ int main()
     return 0;
 }
 
-
-#include <stdio.h>
 int main()
 {
     printf("|\\_/|\n");
@@ -40,9 +35,6 @@ int main()
     return 0;
 }
 
-
-#include <stdio.h>
-#pragma warning(disable: 4996)
 int main()
 {
     int A, B;
@@ -51,9 +43,6 @@ int main()
     return 0;
 }
 
-
-#include <stdio.h>
-#pragma warning(disable: 4996)
 int main()
 {
     int A, B;
@@ -62,9 +51,6 @@ int main()
     return 0;
 }
 
-
-#include <stdio.h>
-#pragma warning(disable: 4996)
 int main()
 {
     int A, B;
@@ -73,9 +59,6 @@ int main()
     return 0;
 }
 
-
-#include <stdio.h>
-#pragma warning(disable: 4996)
 int main()
 {
     int A, B;
@@ -87,9 +70,6 @@ int main()
     return 0;
 }
 
-
-#include <stdio.h>
-#pragma warning(disable: 4996)
 int main()
 {
     int A, B;
@@ -103,9 +83,6 @@ int main()
     return 0;
 }
 
-
-#include <stdio.h>
-#pragma warning(disable: 4996)
 int main()
 {
     char id[60];
@@ -113,9 +90,6 @@ int main()
     printf("%s??!", id);
 }
 
-
-#include <stdio.h>
-#pragma warning(disable: 4996)
 int main()
 {
     int a;
@@ -124,9 +98,6 @@ int main()
 
 }
 
-#include <stdio.h>
-#pragma warning(disable: 4996)
-
 int main()
 {
     int a,b,c;
@@ -134,9 +105,6 @@ int main()
     printf("%d\n%d\n%d\n%d", (a+b)%c,(a%c+b%c)%c,(a*b)%c,((a%c)*(b%c))%c);
 
 }
-
-#include <stdio.h>
-#pragma warning(disable: 4996)
 
 int main()
 {
@@ -151,8 +119,6 @@ int main()
     return 0;
 }
 
-#include <stdio.h>
-#pragma warning(disable: 4996)
 int main()
 {
     printf("         ,r'\"7\n");
