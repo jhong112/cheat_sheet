@@ -57,7 +57,7 @@ int main()
     for (int i = 0; i < n-1; i++)
         link_node(&new_node[i], &new_node[i + 1]);
         
-    node* first = new_node; //
+    node* first = new_node; // first 포인터를 움직이면서 현재노드를 가리킴
     while (first!=nullptr)
     {
         printf("%d\n", first->data);
@@ -68,3 +68,34 @@ int main()
 }
 ```  
 </br>  
+그냥 인풋에 숫자만 넣으면 알아서 추가되게 하고싶음  
+
+```C  
+void create_node(node* ptr)
+{
+    ptr->pre_ptr = NULL;
+    ptr->nex_ptr = NULL;
+    ptr->data = 0;
+}
+void add_node(node* ptr,int n) //값을 복사떠서 ㄱㅊ
+{
+    node* new_node = (node*)malloc(sizeof(new_node) * 1); //그냥 node* new_node; 하면안됨? ㄴㄴ 공간할당이안되어있어서 아무것도없음;
+    create_node(new_node);
+    new_node->data = n;
+
+    int i = 0;
+    while (ptr->nex_ptr!=NULL)
+    {
+        ptr = ptr->nex_ptr; //방향주의
+    }
+    ptr->nex_ptr = new_node;
+    new_node->pre_ptr = ptr;
+}
+int main()
+{
+    node* new_node = (node*)malloc(sizeof(node) * 1);
+    create_node(new_node);
+    add_node(new_node, 5);
+    return 0;
+}
+```
