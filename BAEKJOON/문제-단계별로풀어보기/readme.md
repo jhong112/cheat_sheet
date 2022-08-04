@@ -100,6 +100,8 @@ int main()
 }
 ```  
 </br>  
-```C  
-printf()
+```C 
+node* node_ptr; //처음은 malloc해서 만들어주면 됨 지금은 좀
+add_node((node*) node_ptr,1); //
+
 ```
