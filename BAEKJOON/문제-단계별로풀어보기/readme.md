@@ -98,4 +98,8 @@ int main()
     add_node(new_node, 5);
     return 0;
 }
+```  
+</br>  
+```C  
+printf()
 ```
