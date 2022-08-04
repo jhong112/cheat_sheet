@@ -5,7 +5,7 @@
 int a=1;
 int* ptr=(int*)malloc(sizeof(int)*1);
 ptr=&a; //포인터에 스택주소를 넘김
-free(ptr);
+free(ptr); //error
 
 //복사생각
 int a=1;
