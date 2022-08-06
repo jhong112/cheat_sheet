@@ -12,8 +12,9 @@ Header|Description
 1|2
 3|4
 
-```C++
-
+```C  
 printf("Hello World!");
 printf("이렇게 코드 입력");
 ```
+
+&nbsp; 이건 공백
