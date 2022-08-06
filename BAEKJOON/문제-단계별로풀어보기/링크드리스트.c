@@ -175,7 +175,7 @@ void add_node(node* ptr,int n)
 int main()
 {
     int n = 10;  //내가원하는개수 n=10
-    node* node_ptr = (node*)malloc(sizeof(node) * 1);
+    node* node_ptr = (node*)malloc(sizeof(node) * 1);  //node* list = create_node(); 
     node_ptr=create_node();  
 
     for (int i = 0; i < n; i++)
