@@ -1,7 +1,7 @@
 #include <stdio.h>
 #pragma warning(disable: 4996)
 
-int main()
+int main() //9498
 {
     int a;
     scanf("%d", &a);
@@ -18,7 +18,7 @@ int main()
     return 0;
 }
 
-int main() 
+int main() //2753
 {
     int a;
     scanf("%d", &a);
@@ -29,7 +29,7 @@ int main()
     return 0;
 }
 
-int main() 
+int main() //14681
 {
     int x,y;
     scanf("%d", &x);
@@ -45,7 +45,7 @@ int main()
     return 0;
 }
 
-int main() 
+int main() //2884
 {
     int H, M;
     scanf("%d %d",&H,&M);
@@ -63,7 +63,7 @@ int main()
     return 0;
 }
 
-int main() 
+int main() //2525
 {
     int h, m, duration;
     scanf("%d %d", &h, &m);
@@ -74,7 +74,7 @@ int main()
     return 0;
 }
 
-int main() 
+int main() //2480
 {
     int a[3];
     int reward,reward_max=0;
