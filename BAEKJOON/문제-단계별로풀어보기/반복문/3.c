@@ -12,7 +12,7 @@ int main() //2739
     return 0;
 }
 
-int main(void)
+int main(void) //10950
 {
     int test_num;
     scanf("%d", &test_num);
@@ -29,7 +29,7 @@ int main(void)
     return 0;
 }
 
-int main(void)
+int main(void) //8393
 {
     int n,sum=0;
     scanf("%d", &n);
@@ -51,7 +51,7 @@ int main(void)
     return 0;
 }
 
-int main(void)
+int main(void) //15552
 {
     int n;
     scanf("%d", &n);
@@ -61,7 +61,7 @@ int main(void)
     return 0;
 }
 
-int main(void)
+int main(void) //11021
 {
     int test_num;
     scanf("%d", &test_num);
@@ -77,7 +77,7 @@ int main(void)
     return 0;
 }
 
-int main(void)
+int main(void) //11022
 {
     int test_num;
     scanf("%d", &test_num);
@@ -94,7 +94,7 @@ int main(void)
     return 0;
 }
 
-int main(void)
+int main(void) //2438
 {
     int n;
     scanf("%d", &n);
@@ -108,7 +108,7 @@ int main(void)
     return 0;
 }
 
-int main(void)
+int main(void) //2439
 {
     int n;
     scanf("%d", &n);
@@ -124,7 +124,7 @@ int main(void)
     return 0;
 }
 
-int main(void)
+int main(void) //10871
 {
     int n, standard;
     scanf("%d %d", &n, &standard);
@@ -143,7 +143,7 @@ int main(void)
     return 0;
 }
 
-int main(void)
+int main(void) //10952
 {
     int a,b,flag=1;
     
@@ -159,7 +159,7 @@ int main(void)
     return 0;
 }
 
-int main(void)
+int main(void) //10951
 {
     int a,b,flag=1;
     while (scanf("%d %d", &a, &b)!=EOF)
@@ -170,7 +170,7 @@ int main(void)
     return 0;
 }
 
-int main(void)
+int main(void) //1110
 {
     int n,cycle=0,new_num,n_store;
     scanf("%d", &n);
