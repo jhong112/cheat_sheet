@@ -2,7 +2,7 @@
 #include <stdlib.h>
 #pragma warning(disable: 4996)
 
-int main(void)
+int main(void) //10818
 {
     int num,least= 1000000,best=-1000000;
     scanf("%d", &num);
@@ -22,7 +22,7 @@ int main(void)
     return 0;
 }
 
-int main(void)
+int main(void) //2562
 {
     int num[9],best=0,best_where=0;
     for (int i = 0; i < 9; i++)
@@ -39,7 +39,7 @@ int main(void)
     return 0;
 }
 
-int main(void)
+int main(void) //2577
 {
     int a, b, c, mul, count[10] = {0};
     scanf("%d", &a);
@@ -92,7 +92,7 @@ int main(void)
     return 0;
 }
 
-int main(void)
+int main(void) //3052
 {
     int num[10],flag=0,diff=0;
 
@@ -119,7 +119,7 @@ int main(void)
     return 0;
 }
 
-int main(void)
+int main(void) //1546
 {
     int num,best=0;
     float sum = 0;
@@ -145,7 +145,7 @@ int main(void)
     return 0;
 }
 
-int main(void)
+int main(void) //8958
 {
     int num,score=0,sum=0;
     char answer[80];
@@ -184,7 +184,7 @@ int main(void)
     return 0;
 }
 
-int main(void)
+int main(void) //4344
 {
     int num,num_people,sum,count;
     scanf("%d", &num);
