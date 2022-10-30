@@ -1,4 +1,11 @@
-node ptr;
+typedef struct node{
+    char data;
+    struct node* next;
+}
+
+int main()
+{
+    node ptr;
     node store;
     store=ptr;
     
@@ -11,3 +18,4 @@ node ptr;
     
     ptr=store;
     printf("%c",ptr.data);
+}
